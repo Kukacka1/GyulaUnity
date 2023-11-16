@@ -15,6 +15,11 @@ class Gun : MonoBehaviour
     [SerializeField] KeyCode shootKey = KeyCode.Space;
     float lastShootTime;
 
+    private void Start()
+    {
+        // Hello
+    }
+
     void Update()
     {
         bool shoot;
